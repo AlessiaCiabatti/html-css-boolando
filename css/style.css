@@ -9,10 +9,12 @@ body{
 }
 
 .container{
-  height: 530px;
-  width: 1000px;
-  background-color: brown;
+  display: flex;
+  align-content: start; 
+  /* serve per allineare elementi su più linee */
+  max-width: 1030px;
   margin: 50px auto;
+  justify-content: space-between;
 }
 
 .prodotto-uno{
@@ -20,7 +22,6 @@ body{
 }
 
 .container .prodotto-uno{
-  background-color: aqua;
   height: 530px;
   width: 335px;
 }
@@ -58,6 +59,17 @@ body{
 
 .prodotto-uno img{
   width: 100%;
+}
+
+.prodotto-uno .img-none{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: none;
+}
+
+.prodotto-uno:hover .img-none{
+  display: inline-block;
 }
 
 .prodotto-uno,p{
