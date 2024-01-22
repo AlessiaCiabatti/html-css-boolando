@@ -10,7 +10,9 @@ body{
 
 .container{
   display: flex;
-  align-content: start; 
+  flex-wrap: wrap;
+  /* tutti gli elementi vanno a capo anche quelli all'interno delle img*/
+  align-content: start;
   /* serve per allineare elementi su più linee */
   max-width: 1030px;
   margin: 50px auto;
@@ -32,6 +34,7 @@ body{
   background-color: #ff0000;
   padding: 3px 8px;
   color: white;
+  z-index: 1
 }
 
 .prodotto-uno .sostenibilità{
@@ -41,6 +44,7 @@ body{
   background-color: #008000;
   padding: 3px 8px;
   color: white;
+  z-index: 1
 }
 
 .prodotto-uno .heart:hover{
