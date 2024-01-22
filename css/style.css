@@ -8,6 +8,51 @@ body{
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
+/* header menu */
+.container-header{
+  background-color: #ff6900;
+  height: 55px;
+}
+
+.container-header .nav{
+  display: flex;
+  align-items: center;
+  height: 55px;
+  max-width: 1030px;
+  margin: 0 auto;
+  color: white;
+  font-size: 12px;
+}
+
+.menu ul{
+  list-style: none;
+  display: flex;
+}
+
+.menu ul li a{
+  text-decoration: none;
+  padding-right: 7px;
+  color: white;
+}
+
+.container-header .logo{
+  text-align: center;
+}
+
+.container-header .logo{
+  flex-grow: 1;
+}
+
+.logo img{
+  height: 20px;
+}
+
+.icone .fa-regular{
+  padding-right: 8px;
+}
+
+/* main immagini */
 .container{
   display: flex;
   flex-wrap: wrap;
