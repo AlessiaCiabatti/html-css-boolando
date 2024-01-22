@@ -51,6 +51,7 @@ body{
 .icone .fa-regular{
   padding-right: 8px;
 }
+/* /header menu */
 
 /* main immagini */
 .container{
@@ -136,4 +137,16 @@ body{
 .prodotto-uno .prezzo-originale{
   color: gray;
   text-decoration: line-through;
+}
+
+.prodotto-uno .six{
+  position: absolute;
+  left: 0px;
+}
+/* /main immagini */
+
+/* footer */
+.container-footer{
+  background-color: #1a1a1a;
+  height: 80px;
 }
